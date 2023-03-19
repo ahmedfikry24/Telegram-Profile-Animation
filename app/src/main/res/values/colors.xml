@@ -6,5 +6,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="grey">#99DDDDDD</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="move">#9e73f9</color>
+    <color name="bk">#1e2834</color>
 </resources>

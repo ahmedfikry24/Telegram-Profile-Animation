@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Telegram Profile</string>
+    <string name="online">Online</string>
+    <string name="ahmed_fikry">Ahmed Fikry</string>
+    <string name="account">Account</string>
+    <string name="phone_number">+201090676953</string>
+    <string name="top_to_change">Tap to change phone number</string>
+    <string name="full_name">\@Ahmedfikryelshimi</string>
+    <string name="username">username</string>
+    <string name="bio">Bio</string>
+    <string name="add_bio">add few words about yourself</string>
+    <string name="chat_settings">Chat Settings</string>
+    <string name="praivcy_and_scurity">Praivcy and Scurity</string>
+    <string name="notification_sounds">Notifications and Sounds</string>
+    <string name="data_storage">Data Storage</string>
+    <string name="power_settings">Power Settings</string>
+    <string name="chat_folder">Chat Folder</string>
+    <string name="devices">Devices</string>
+    <string name="language">Language</string>
+    <string name="telegram_premium">Telegram Premium</string>
+    <string name="faq">Telegram FAQ</string>
+    <string name="ask_a_q_uestion">Ask a Q uestion</string>
+    <string name="help">Help</string>
 </resources>
