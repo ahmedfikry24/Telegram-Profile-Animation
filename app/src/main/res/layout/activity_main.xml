@@ -60,7 +60,9 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@id/backgroundImage"
-        app:layout_constraintStart_toStartOf="@id/icBackArrow" />
+        app:layout_constraintStart_toStartOf="@id/icBackArrow"
+        android:fontFamily="@font/opensans_regular"
+        />
 
     <TextView
         android:id="@+id/name"
@@ -69,9 +71,10 @@
         android:text="@string/ahmed_fikry"
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/Status"
-        app:layout_constraintStart_toStartOf="@id/Status" />
+        app:layout_constraintStart_toStartOf="@id/Status"
+        android:fontFamily="@font/opensans_semibold"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -111,7 +114,9 @@
                     android:layout_marginHorizontal="@dimen/margin_16"
                     android:layout_marginTop="@dimen/margin_10"
                     android:text="@string/account"
-                    android:textColor="@color/move" />
+                    android:textColor="@color/move"
+                    android:fontFamily="@font/opensans_medium"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -120,14 +125,18 @@
                     android:layout_marginTop="@dimen/margin_10"
                     android:text="@string/phone_number"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:fontFamily="@font/opensans_medium"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/margin_16"
                     android:text="@string/top_to_change"
-                    android:textColor="@color/grey" />
+                    android:textColor="@color/grey"
+                    android:fontFamily="@font/opensans_medium"
+                    />
 
                 <View
                     android:layout_width="match_parent"
@@ -143,14 +152,18 @@
                     android:layout_marginTop="@dimen/margin_10"
                     android:text="@string/full_name"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:fontFamily="@font/opensans_medium"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/margin_16"
                     android:text="@string/username"
-                    android:textColor="@color/grey" />
+                    android:textColor="@color/grey"
+                    android:fontFamily="@font/opensans_medium"
+                    />
 
                 <View
                     android:layout_width="match_parent"
@@ -166,7 +179,9 @@
                     android:layout_marginTop="@dimen/margin_10"
                     android:text="@string/bio"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:fontFamily="@font/opensans_medium"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -175,6 +190,7 @@
                     android:text="@string/add_bio"
                     android:textColor="@color/grey"
                     android:layout_marginBottom="@dimen/margin_10"
+                    android:fontFamily="@font/opensans_medium"
                     />
 
             </LinearLayout>
@@ -196,8 +212,9 @@
                     android:text="@string/chat_settings"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    app:drawableStartCompat="@drawable/chat" />
+                    app:drawableStartCompat="@drawable/chat"
+                    android:fontFamily="@font/opensans_semibold"
+                    />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -214,7 +231,7 @@
                     android:text="@string/praivcy_and_scurity"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/privacy" />
                 <View
                     android:layout_width="match_parent"
@@ -232,7 +249,7 @@
                     android:text="@string/notification_sounds"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/notification" />
                 <View
                     android:layout_width="match_parent"
@@ -250,7 +267,7 @@
                     android:text="@string/data_storage"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/storage" />
                 <View
                     android:layout_width="match_parent"
@@ -269,7 +286,7 @@
                     android:text="@string/power_settings"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/power" />
                 <View
                     android:layout_width="match_parent"
@@ -288,7 +305,7 @@
                     android:text="@string/chat_folder"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/folder" />
                 <View
                     android:layout_width="match_parent"
@@ -307,7 +324,7 @@
                     android:text="@string/devices"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/devices" />
                 <View
                     android:layout_width="match_parent"
@@ -325,7 +342,7 @@
                     android:text="@string/language"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/language" />
 
             </LinearLayout>
@@ -348,7 +365,7 @@
                     android:text="@string/telegram_premium"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/premium" />
 
             </LinearLayout>
@@ -367,7 +384,10 @@
                     android:layout_marginHorizontal="@dimen/margin_16"
                     android:layout_marginVertical="@dimen/margin_10"
                     android:text="@string/help"
-                    android:textColor="@color/move" />
+                    android:textColor="@color/move"
+                    android:fontFamily="@font/opensans_medium"
+
+                    />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -376,7 +396,7 @@
                     android:text="@string/ask_a_q_uestion"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/chat" />
                 <View
                     android:layout_width="match_parent"
@@ -394,7 +414,7 @@
                     android:text="@string/faq"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_semibold"
                     app:drawableStartCompat="@drawable/question_mark" />
             </LinearLayout>
 
